@@ -23,13 +23,21 @@ Once the user checks the temperature, it creates a notification that will update
 
 Once the user checks the temperature, it creates a background service that checks the inputed IP and stores it in the shared preferences for the auto fill on the inputs for IPs. (in all activities). 
 
-# Bound Service
+# Database (SQLite)
 
+Used to store the readings of temperature, displays the last 3 in the readings screen.
 
 # Broadcast Recievers
 
 The receiver checks for the internet connection and each activity listes for it, and in the case of no internet the buttons are not enabaled.
 
+# Intents 
+
+Used for launching services / starting activities.
+
+# Activities
+
+Used for creating the user interface.
 
 # Shared Preferences
 
